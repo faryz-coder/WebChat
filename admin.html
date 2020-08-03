@@ -1,0 +1,39 @@
+<div id="admin">
+  <!-- admin logo -->
+  <div class="admin_logo">
+    <p>ADMIN</p>
+  </div>
+
+  <!-- Selection Panel -->
+  <!-- Add Member -->
+  <div class="add_member">
+    <form action="process_add_member.php" method="POST">
+    <p>Add Member</p>
+    <p><input type="text" name="add" placeholder="Enter user id..."></p>
+    <p><button type="Submit" name="submit-add">+</button></p>
+    </form>
+  </div>
+  <!-- Remove Member -->
+  <div class="remove_member">
+    <form action="process_remove_member.php" method="POST">
+    <p>Remove Member</p>
+    <p><input type="text" name="remove" placeholder="Enter user id..."></p>
+    <p><button type="Submit" name="submit-remove">+</button></p>
+    </form>
+  </div>
+  <!-- Add Admin -->
+  <div class="add_admin">
+    <form action="process_add_admin.php" method="POST">
+    <p>Add Admin</p>
+    <p><input type="text" name="addAdmin" placeholder="Enter user id..."></p>
+    <p><button type="Submit" name="submit-admin">+</button></p>
+    </form>
+
+  </div>
+
+  <div class="secondary">
+    <a href="main.php"><button>MAIN</button></a>
+      <a href="sign_out.php"><button>SIGN OUT</button></a>
+  </div>
+
+</div>

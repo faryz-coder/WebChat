@@ -1,0 +1,165 @@
+body{
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  font-style: normal;
+
+}
+
+
+input[type=text]{
+  border:1px solid gray;
+  border-radius: 6px;
+  font-size: 15px;
+  height: 30px;
+  width: 83%;
+  text-align: center;
+}
+
+input[type=text]:focus{
+   border: 1px solid #000000;
+}
+
+.add_admin .secondary a{
+  text-decoration: none;
+}
+
+.button_login{
+  border-radius: 15px;
+  height: 35px;
+  width: 85%;
+  color: white;
+  background-color: #7F00FF;
+}
+
+.bg-image{
+  position: fixed;
+  text-align: center;
+  background-image: url("../img/bgi4.png");
+  height: 1000px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display:block;
+
+}
+
+.bg-form{
+  position: fixed;
+  background-color: white;
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 45%;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  border:3px solid #f1f1f1;
+}
+
+.display_form{
+  width: 40%;
+  height: 100%;
+}
+
+.inside_form{
+  position: relative;
+  top: 15%;
+  color: black;
+
+}
+.inside_form h1{
+  color: #cc99ff;
+  font-size: 23px;
+}
+
+
+.logo{
+  background-image: url("../img/bgi5.png");
+  background-size: cover;
+  width: 59%;
+  height: 100%;
+  position: absolute;
+  left: 41%;
+  top: 0;
+}
+
+.register{
+  font-size: 13px;
+}
+
+@media(max-width:1980px){
+  .bg-form{
+    width: 900px;
+  }
+
+  .inside_form{
+    left:7%;
+  }
+
+  .logo{
+    width: 500px;
+    left: 43%;
+  }
+}
+
+@media(max-width:768px){
+  .bg-form{
+    top:50%;
+    height: 80%;
+    position: fixed;
+    width:80%;
+  }
+  .inside_form{
+    top: 48%;
+    width: 90%;
+    position: absolute;
+
+  }
+  .logo{
+    top: 3%;
+    width: 90%;
+    height: 48%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 5%;
+    background-position: center;
+  }
+}
+
+
+@media(max-width:568px){
+  .bg-form{
+    top:50%;
+    height: 80%;
+    position: fixed;
+  }
+  .inside_form{
+    top: 48%;
+    width: 90%;
+    position: absolute;
+
+  }
+  .logo{
+    top: 0;
+    width: 90%;
+    height: 48%;
+    background-size: cover;
+    left: 5%;
+    background-position: center;
+  }
+}
+
+
+
+@media(max-width:310px){
+  body{
+    display: none;
+  }
+}
